@@ -21,3 +21,17 @@ If escape is pressed, yes(Y)/No(N) options are available on escape screen.
 If game is quit, screen transitions to end screen. Thank you message is displayed with users name,
 
 Upon any key press on end screen, programs exits.
+
+
+
+Interesting functionalities:
+
+'Wiping' of pixels whilst in graphics mode before transitioning to another screen.
+Music stops when escape is pressed and continues from same note if No(N) is selected.
+Scrolling of ships and boats stops when escape is pressed and continues from same position if No(N) is selected.
+Score is displayed at top right corner.
+Screen transitions are implemented whilst in text mode. No abrupt jumping from one screen to another, smooth tranition is in play by the use of various screen buffer to give a 'scrolling' effect.
+If arrows is pressed continously, fish moves at an increased and smooth speed.
+Of the three pixels used to represent the fish, coins can be collected with each.
+
+One of the most interesting projects i've made till date. (6/12/2022) (Uploaded a month later)
